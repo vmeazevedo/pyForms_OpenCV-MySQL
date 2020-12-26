@@ -6,9 +6,9 @@ from mysql.connector import cursor
 # Conexão da instância RDS - Amazon Web Service
 ###############################################################################################################
 # Preencher os campos de conexão abaixo
-host = 'mydatabase.cfjzhsvo4gof.us-east-1.rds.amazonaws.com'    # Endpoint da instância RDS na cloud da AWS
-user = 'malloner'                                               # Username criado na hora de realizar a instância RDS
-password = 'Malone33'                                           # Password criado na hora de realizar a instância RDS
+host = ''    # Endpoint da instância RDS na cloud da AWS
+user = ''                                               # Username criado na hora de realizar a instância RDS
+password = '"                                         # Password criado na hora de realizar a instância RDS
 
 # host = 'localhost'    # Endpoint da instância RDS na cloud da AWS
 # user = 'root'                                               # Username criado na hora de realizar a instância RDS
