@@ -6,7 +6,7 @@ from mysql.connector import errorcode
 from mysql.connector import cursor
 from numpy.core.fromnumeric import choose
 
-###############################################################################################################
+##############################################################################################################
 # Conexão da instância RDS - Amazon Web Service
 ###############################################################################################################
 # Preencher os campos de conexão abaixo
