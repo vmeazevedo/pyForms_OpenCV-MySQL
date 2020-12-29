@@ -37,6 +37,7 @@ New VPC security group name: <entrar_com_o_nome>
 Ao rodar o código será apresentado no terminal o menu abaixo com as opções de cadastro e identificação:
 ![image](https://user-images.githubusercontent.com/40063504/103282211-d6674d80-49b3-11eb-8b8c-84fc54b6c73f.png)
 
+## Opção 1
 Se a opção 1 for selecionada, será apresentado alguns campos para preenchimento do novo cadastro conforme mostrado abaixo:
 ![image](https://user-images.githubusercontent.com/40063504/103282344-3bbb3e80-49b4-11eb-8720-9faa71b78780.png)
 
@@ -45,3 +46,13 @@ Após realizarmos o preenchimento do novo cadastro em nossa base de dados a tela
 
 Nessa tela temos a opção de cadastrar uma nova foto de usuário (tecla espaço), realizar o treinamento (letra t), ou sair (letra q). 
 Pressionando a tecla 'espaço' do teclado iremos realizar a captura das fotos para realização do treinamento posteriormente.
+![image](https://user-images.githubusercontent.com/40063504/103282503-c865fc80-49b4-11eb-877b-423246d026ce.png)
+
+Ao pressionarmos 'espaço' uma pasta será criada chamada 'USUARIO' e dentro dela será criado uma pasta com o nome cadastrado anteriormente, dentro dessa pasta será armazenada todas as fotos do usuário que acabamos de cadastrar. Em um caso de novo cadastro, será criado outra pasta automaticamente com o nome cadastrado dentro da pasta 'USUARIO'.
+![image](https://user-images.githubusercontent.com/40063504/103282688-4fb37000-49b5-11eb-9497-9a6432d2c241.png)
+
+Agora chegou o momento de realizarmos o treinamento de nosso algoritmo para ele reconhecer o usuário cadastrado através das fotos tiradas. Para isso pressionamos a tecla 't' na mesma tela onde realizamos a captura. O algoritmo será treinado e será apresentado o nome do usuário cadastrado diretamente no layer do reconhecimento facial.
+![image](https://user-images.githubusercontent.com/40063504/103282855-c2245000-49b5-11eb-90b8-32ddf0cf4381.png)
+
+
+
