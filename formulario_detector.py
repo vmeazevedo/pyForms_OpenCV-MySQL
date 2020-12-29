@@ -34,44 +34,48 @@ cursor.execute("CREATE TABLE IF NOT EXISTS Pessoas (ID int auto_increment, Nome 
 ###############################################################################################################
 
 def creatDir(name, path=''):
-    if not os.path.exists(f'{path}/{name}'):  # CHECK IF FOLDER EXISTS
-        os.makedirs(f'{path}/{name}')  # IF NOT, CREATE
+    # verifica se tem um diretorio, se não tem ele cria
+    if not os.path.exists(f'{path}/{name}'):  
+        os.makedirs(f'{path}/{name}')  
 
 def saveFace():
-    global saveface  # GET GLOBALS
+    # criando a pasta de treino e a pasta do usuário
+    global saveface  
     global lastName
-    saveface = True  # SET SAVE FACE TRUE
-    creatDir('USUARIO')  # CREATE FOLDER TRAIN
-    print("CADASTRANDO..")  # PRINT ASK
-    name = Nome  # GET NAME
-    lastName = name  # SET GLOBAL NAME
-    creatDir(name, 'USUARIO')  # CREATE PERSON DIR
+    saveface = True  
+    creatDir('USUARIO')  
+    print("CADASTRANDO..")  
+    name = Nome  
+    lastName = name  
+    creatDir(name, 'USUARIO')  
 
 def saveImg(img):
-    global lastName  # GET GLOBALS
-    qtd = os.listdir(f'USUARIO/{lastName}')  # GET ITENS LEN OF TRAIN FOLDER
-    cv2.imwrite(f'USUARIO/{lastName}/{str(len(qtd))}.jpg', img)  # SAVE IMAGE
+    # salvando as fotos na pasta do usuário e nomeando elas
+    global lastName  
+    qtd = os.listdir(f'USUARIO/{lastName}')  
+    cv2.imwrite(f'USUARIO/{lastName}/{str(len(qtd))}.jpg', img)  
 
 def trainData():
-    global recognizer  # GET GLOBALS
+    # realizando o treinamento das fotos
+    global recognizer  
     global trained
     global persons
-    trained = True  # SET TRAINED TRUE
-    persons = os.listdir('USUARIO')  # SET PERSONS LIST
-    ids = []  # ID OF EACH IMAGE
-    faces = []  # NUMPY IMAGE GRAY
-    for i, p in enumerate(persons):  # RUN ALL PERSONS IN TRAIN FOLDER WITH INDEX
-        i += 1  # INCREMENT 1 IN INDEX, I = PERSON ID
-        for f in os.listdir(f'USUARIO/{p}'):  # RUN PERSONS FOLDER, GET ALL 50 IMAGES
-            img = cv2.imread(f'USUARIO/{p}/{f}', 0)  # GET IMAGE IN GRAYSCALE
-            faces.append(img)  # APPEND IMAGE TO FACES LIST
-            ids.append(i)  # APPEND ID TO IDS LIST
-    recognizer.train(faces, np.array(ids))  # TRAIN RECOGNIZER
+    trained = True  
+    persons = os.listdir('USUARIO')  
+    ids = []  
+    faces = []  
+    for i, p in enumerate(persons):  
+        i += 1  
+        for f in os.listdir(f'USUARIO/{p}'):  
+            img = cv2.imread(f'USUARIO/{p}/{f}', 0)  
+            faces.append(img) 
+            ids.append(i)  
+    recognizer.train(faces, np.array(ids))  
 
 
 
 print("=================================================")
-print("             Formulário de Cadastro")
+print("             Formulário de Cadastro              ")
 print("=================================================")
 print("Selecione:")
 print("1 - Cadastrar")
@@ -126,7 +130,7 @@ while(True):
         # Cortando o rosto
         roi_gray = gray[y:y+h, x:x+w]
         # Ajustando a foto para 50x50
-        resize = cv2.resize(roi_gray, (300, 300)) 
+        resize = cv2.resize(roi_gray, (400, 400)) 
         # Verificando se o recognizer está treinado
         if trained:
             # Prevendo o rosto
