@@ -49,10 +49,15 @@ Agora chegou a hora de realizar o treinamento do nosso algoritmo para que ele re
 Quando o código for executado, será apresentado o menu abaixo com as opções de cadastro e identificação:
 ![image](https://user-images.githubusercontent.com/40063504/103282211-d6674d80-49b3-11eb-8b8c-84fc54b6c73f.png)
 
-Se a opção 2 for selecionada, a tela de reconhecimento facial será apresentada ao usuário.![image](https://user-images.githubusercontent.com/40063504/103283063-5098d180-49b6-11eb-8bdb-1bf3fbd03b2d.png)
+Se a opção 2 for selecionada, a tela de reconhecimento facial será apresentada ao usuário.
+![2](https://user-images.githubusercontent.com/40063504/161358203-38df2a8f-bd1d-46aa-b07b-5a502d12d3f1.png)
+
 
 Como neste caso já temos nosso usuário cadastrado em nosso banco de dados na nuvem, bastará pressionar a tecla 't' para executar o algoritmo de treinamento para que ele reconheça o rosto do usuário e apresente seu nome.
-![image](https://user-images.githubusercontent.com/40063504/103283159-88a01480-49b6-11eb-943f-748e6b21b0c8.png)
+![5](https://user-images.githubusercontent.com/40063504/161358207-78de3f58-3937-467a-9a8b-69f56cb6435f.png)
+
+![6](https://user-images.githubusercontent.com/40063504/161358214-eb1ab2f7-f100-436d-ae50-bfd57dc5534b.png)
+
 
 ## Validando o registro via MySQL Workbench
 Usamos o MySQL Workbench para validar que nosso usuário registrado foi registrado com sucesso![image](https://user-images.githubusercontent.com/40063504/103283248-c9982900-49b6-11eb-9211-f822b3fbb7fc.png)
