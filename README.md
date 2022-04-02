@@ -1,6 +1,10 @@
 # pyForms_OpenCV-MySQL
 Aplicação de CRUD + reconhecimento facial diretamente da base de dados.
 
+![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich/10.11.0) [![Twitter Follow](https://img.shields.io/twitter/follow/vmeazevedo.svg?style=social)](https://twitter.com/vmeazevedo) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Vinícius_Azevedo%20-blue)](https://www.linkedin.com/in/vin%C3%ADcius-azevedo-45180ab2/)
+
+![Star](https://img.shields.io/github/stars/vmeazevedo/pyForms_OpenCV-MySQL?style=social)
+![Fork](https://img.shields.io/github/forks/vmeazevedo/pyForms_OpenCV-MySQL?label=Fork&style=social)
 
 ## Apoie esse projeto! 💵💵
 Olá!
@@ -13,11 +17,11 @@ Você pode realizar doações de qualquer banco para minha chave Pix Itaú: **86
 pip install -r requirements.txt
 ```
 
-## Operation
+## Como rodar?
 Quando o código for executado, será apresentado o menu abaixo com as opções de cadastro e identificação:
 ![image](https://user-images.githubusercontent.com/40063504/103282211-d6674d80-49b3-11eb-8b8c-84fc54b6c73f.png)
 
-### Opção 1
+## Opção 1
 Caso seja selecionada a opção 1, serão apresentados alguns campos para preenchimento do novo cadastro conforme demonstrado abaixo:
 ![image](https://user-images.githubusercontent.com/40063504/103282344-3bbb3e80-49b4-11eb-8720-9faa71b78780.png)
 
@@ -34,7 +38,7 @@ Agora chegou a hora de realizar o treinamento do nosso algoritmo para que ele re
 ![image](https://user-images.githubusercontent.com/40063504/103282855-c2245000-49b5-11eb-90b8-32ddf0cf4381.png)
 
 
-### Opção 2
+## Opção 2
 Quando o código for executado, será apresentado o menu abaixo com as opções de cadastro e identificação:
 ![image](https://user-images.githubusercontent.com/40063504/103282211-d6674d80-49b3-11eb-8b8c-84fc54b6c73f.png)
 
