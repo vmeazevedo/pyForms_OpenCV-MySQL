@@ -26,10 +26,13 @@ Caso seja selecionada a opção 1, serão apresentados alguns campos para preenc
 ![image](https://user-images.githubusercontent.com/40063504/103282344-3bbb3e80-49b4-11eb-8720-9faa71b78780.png)
 
 
-Após concluir o novo cadastro em nosso banco de dados, a tela de reconhecimento facial será apresentada.![image](https://user-images.githubusercontent.com/40063504/103282395-673e2900-49b4-11eb-8db4-0c012b900b25.png)
+Após concluir o novo cadastro em nosso banco de dados, a tela de reconhecimento facial será apresentada.
+![1](https://user-images.githubusercontent.com/40063504/161358062-628c5636-a108-44f7-8f0e-6729e1ddc0c7.png)
+
 
 Nesta tela temos a opção de cadastrar uma nova foto de usuário (tecla de espaço), realizar o treinamento (letra t), ou sair (letra q). Apertando a tecla 'espaço' no teclado, vamos capturar as fotos para realizar o treino posteriormente.
-![image](https://user-images.githubusercontent.com/40063504/103282503-c865fc80-49b4-11eb-877b-423246d026ce.png)
+![3](https://user-images.githubusercontent.com/40063504/161358071-6748d55a-ae28-469d-937b-a56d09d3e565.png)
+
 
 Ao pressionar 'espaço' será criada uma pasta chamada 'USUÁRIO' e dentro dela será criada uma pasta com o nome previamente cadastrado, dentro dessa pasta serão armazenadas todas as fotos do usuário que acabamos de cadastrar. No caso de um novo cadastro, outra pasta será criada automaticamente com o nome cadastrado dentro da pasta 'USUÁRIO'.
 ![image](https://user-images.githubusercontent.com/40063504/103282688-4fb37000-49b5-11eb-9497-9a6432d2c241.png)
