@@ -17,6 +17,16 @@ Você pode realizar doações de qualquer banco para minha chave Pix Itaú: **86
 pip install -r requirements.txt
 ```
 
+## Exemplo de utilização
+
+1. Clone o repositório para sua máquina
+
+   ``
+   git clone https://github.com/vmeazevedo/pyForms_OpenCV-MySQL
+   ``
+2. Execute o arquivo python ``app.py``.
+
+
 ## Como rodar?
 Quando o código for executado, será apresentado o menu abaixo com as opções de cadastro e identificação:
 
