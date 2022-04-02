@@ -24,6 +24,7 @@ Quando o código for executado, será apresentado o menu abaixo com as opções 
 
 ## Opção 1
 Caso seja selecionada a opção 1, serão apresentados alguns campos para preenchimento do novo cadastro conforme demonstrado abaixo:
+
 ![image](https://user-images.githubusercontent.com/40063504/103282344-3bbb3e80-49b4-11eb-8720-9faa71b78780.png)
 
 
