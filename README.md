@@ -35,10 +35,12 @@ Nesta tela temos a opção de cadastrar uma nova foto de usuário (tecla de espa
 
 
 Ao pressionar 'espaço' será criada uma pasta chamada 'USUÁRIO' e dentro dela será criada uma pasta com o nome previamente cadastrado, dentro dessa pasta serão armazenadas todas as fotos do usuário que acabamos de cadastrar. No caso de um novo cadastro, outra pasta será criada automaticamente com o nome cadastrado dentro da pasta 'USUÁRIO'.
-![image](https://user-images.githubusercontent.com/40063504/103282688-4fb37000-49b5-11eb-9497-9a6432d2c241.png)
+![7](https://user-images.githubusercontent.com/40063504/161358104-cccdb82a-6f55-4721-86f9-f2653eb928c9.png)
+
 
 Agora chegou a hora de realizar o treinamento do nosso algoritmo para que ele reconheça o usuário cadastrado através das fotos tiradas. Para fazer isso, pressione a tecla 't' na mesma tela em que fizemos a captura. O algoritmo será treinado e o nome do usuário cadastrado será apresentado diretamente na camada de reconhecimento facial.
-![image](https://user-images.githubusercontent.com/40063504/103282855-c2245000-49b5-11eb-90b8-32ddf0cf4381.png)
+![4](https://user-images.githubusercontent.com/40063504/161358113-8de4afc5-505a-4a09-b0be-728457309f3b.png)
+
 
 
 ## Opção 2
