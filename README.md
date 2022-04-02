@@ -30,12 +30,15 @@ pip install -r requirements.txt
 ## Como rodar?
 Quando o código for executado, será apresentado o menu abaixo com as opções de cadastro e identificação:
 
-![image](https://user-images.githubusercontent.com/40063504/103282211-d6674d80-49b3-11eb-8b8c-84fc54b6c73f.png)
+![11](https://user-images.githubusercontent.com/40063504/161362069-5a17b388-2f65-43a9-adcf-7e6115bf8064.png)
+
+
 
 ## Opção 1
 Caso seja selecionada a opção 1, serão apresentados alguns campos para preenchimento do novo cadastro conforme demonstrado abaixo:
 
-![image](https://user-images.githubusercontent.com/40063504/103282344-3bbb3e80-49b4-11eb-8720-9faa71b78780.png)
+![22](https://user-images.githubusercontent.com/40063504/161362076-7197fab8-5530-406c-bc4a-f0923dc09fb5.png)
+
 
 
 Após concluir o novo cadastro em nosso banco de dados, a tela de reconhecimento facial será apresentada.
@@ -57,7 +60,8 @@ Agora chegou a hora de realizar o treinamento do nosso algoritmo para que ele re
 
 ## Opção 2
 Quando o código for executado, será apresentado o menu abaixo com as opções de cadastro e identificação:
-![image](https://user-images.githubusercontent.com/40063504/103282211-d6674d80-49b3-11eb-8b8c-84fc54b6c73f.png)
+![11](https://user-images.githubusercontent.com/40063504/161362086-a1e52a54-2a42-4bf2-a3e4-cf4e5f22c456.png)
+
 
 Se a opção 2 for selecionada, a tela de reconhecimento facial será apresentada ao usuário.
 ![2](https://user-images.githubusercontent.com/40063504/161358203-38df2a8f-bd1d-46aa-b07b-5a502d12d3f1.png)
