@@ -1,38 +1,15 @@
 # Registration form with RDS AWS database and facial recognition via OpenCV
-The algorithm performs a simple user registration (Name, CPF, E-mail and Telephone) in an Amazon RDS database and also performs the storage, training and facial recognition of the user's face to identify the users already registered in the system in a next time the user is seen.
+Aplicação de CRUD + reconhecimento facial diretamente da base de dados.
+
+## Apoie esse projeto! 💵💵
+Olá!
+Você pode realizar doações de qualquer banco para minha chave Pix Itaú: **865875c7-c1cc-4254-8585-7c1616dfbc59**
 
 # Requirements
-You will need to install the libraries below:
 
-- numpy
-- OpenCV
-- mysql-connector
-
-## Creating RDS-MySQL instance on AWS
-- Access the "AWS Management Console"
-- Open the services menu and select the RDS option
-- Select the "Create database" option
-- Select MySQL
-- Version: MySQL 8.0.11
--> Free tier
-- Enter the basic data, username and password:
-
-db instance: "database name"
-
-username: "your username"
-
-password: "your password"
-
-- DB instance size and Storage is default not to mess
-- VPC: Default
-- Subnet group: default
-- Public access: Yes
-- VPC security group: Create new
-
-New VPC security group name: <enter_com_the_name>
-
-- Availability Zone: choose where you are connected
-
+```sh
+pip install -r requirements.txt
+```
 
 # Operation
 When the code is run, the menu below will be presented with the options for registration and identification:
