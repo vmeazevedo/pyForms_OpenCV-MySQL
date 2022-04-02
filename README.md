@@ -19,6 +19,7 @@ pip install -r requirements.txt
 
 ## Como rodar?
 Quando o código for executado, será apresentado o menu abaixo com as opções de cadastro e identificação:
+
 ![image](https://user-images.githubusercontent.com/40063504/103282211-d6674d80-49b3-11eb-8b8c-84fc54b6c73f.png)
 
 ## Opção 1
