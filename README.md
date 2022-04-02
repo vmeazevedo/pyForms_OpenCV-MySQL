@@ -1,5 +1,5 @@
 # pyForms_OpenCV-MySQL
-Aplicação de CRUD + reconhecimento facial diretamente da base de dados.
+Aplicação CRUD + reconhecimento facial diretamente da base de dados.
 
 ![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich/10.11.0) [![Twitter Follow](https://img.shields.io/twitter/follow/vmeazevedo.svg?style=social)](https://twitter.com/vmeazevedo) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Vinícius_Azevedo%20-blue)](https://www.linkedin.com/in/vin%C3%ADcius-azevedo-45180ab2/)
 
@@ -16,6 +16,16 @@ Você pode realizar doações de qualquer banco para minha chave Pix Itaú: **86
 ```sh
 pip install -r requirements.txt
 ```
+
+## Exemplo de utilização
+
+1. Clone o repositório para sua máquina
+
+   ``
+   git clone https://github.com/vmeazevedo/pyForms_OpenCV-MySQL
+   ``
+2. Execute o arquivo python ``app.py``.
+
 
 ## Como rodar?
 Quando o código for executado, será apresentado o menu abaixo com as opções de cadastro e identificação:
