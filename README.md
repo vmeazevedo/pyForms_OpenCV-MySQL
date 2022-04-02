@@ -53,7 +53,7 @@ Se a opção 2 for selecionada, a tela de reconhecimento facial será apresentad
 ![2](https://user-images.githubusercontent.com/40063504/161358203-38df2a8f-bd1d-46aa-b07b-5a502d12d3f1.png)
 
 
-Como neste caso já temos nosso usuário cadastrado em nosso banco de dados na nuvem, bastará pressionar a tecla 't' para executar o algoritmo de treinamento para que ele reconheça o rosto do usuário e apresente seu nome.
+Como neste caso já temos nosso usuário cadastrado em nosso banco de dados, bastará pressionar a tecla 't' para executar o algoritmo de treinamento para que ele reconheça o rosto do usuário e apresente seu nome.
 ![5](https://user-images.githubusercontent.com/40063504/161358207-78de3f58-3937-467a-9a8b-69f56cb6435f.png)
 
 ![6](https://user-images.githubusercontent.com/40063504/161358214-eb1ab2f7-f100-436d-ae50-bfd57dc5534b.png)
