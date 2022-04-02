@@ -42,6 +42,7 @@ Caso seja selecionada a opção 1, serão apresentados alguns campos para preenc
 
 
 Após concluir o novo cadastro em nosso banco de dados, a tela de reconhecimento facial será apresentada.
+
 ![1](https://user-images.githubusercontent.com/40063504/161358062-628c5636-a108-44f7-8f0e-6729e1ddc0c7.png)
 
 
