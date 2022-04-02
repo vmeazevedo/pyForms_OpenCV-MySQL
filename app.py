@@ -5,7 +5,6 @@ from utils.my_connection import mysql_get_mydb
 from utils.create_table import create_table
 from utils.data_insert import cadastro, choose
 
-
 # Conectando com o MySQL e criando a tabela
 cnx = mysql_get_mydb() 
 create_table(cnx)
