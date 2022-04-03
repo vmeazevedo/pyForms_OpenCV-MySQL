@@ -47,6 +47,7 @@ Após concluir o novo cadastro em nosso banco de dados, a tela de reconhecimento
 
 
 Nesta tela temos a opção de cadastrar uma nova foto de usuário (tecla de espaço), realizar o treinamento (letra t), ou sair (letra q). Apertando a tecla 'espaço' no teclado, vamos capturar as fotos para realizar o treino posteriormente.
+
 ![3](https://user-images.githubusercontent.com/40063504/161358071-6748d55a-ae28-469d-937b-a56d09d3e565.png)
 
 
