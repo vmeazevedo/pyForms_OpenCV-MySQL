@@ -1,3 +1,6 @@
+![pyForms_OpenCV-MySQL-removebg-preview](https://user-images.githubusercontent.com/40063504/163689382-1c041093-f22e-4a71-81bb-09541801fcb5.png)
+
+
 # pyForms_OpenCV-MySQL
 Aplicação CRUD + reconhecimento facial diretamente da base de dados.
 
